@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"rsx202021111239\startup_stm32f103xe.o"
+"rsx202021111239\main.o"
+"rsx202021111239\stm32f1xx_it.o"
+"rsx202021111239\stm32f1xx_hal_msp.o"
+"rsx202021111239\stm32f1xx_hal_gpio_ex.o"
+"rsx202021111239\stm32f1xx_hal_tim.o"
+"rsx202021111239\stm32f1xx_hal_tim_ex.o"
+"rsx202021111239\stm32f1xx_hal.o"
+"rsx202021111239\stm32f1xx_hal_rcc.o"
+"rsx202021111239\stm32f1xx_hal_rcc_ex.o"
+"rsx202021111239\stm32f1xx_hal_gpio.o"
+"rsx202021111239\stm32f1xx_hal_dma.o"
+"rsx202021111239\stm32f1xx_hal_cortex.o"
+"rsx202021111239\stm32f1xx_hal_pwr.o"
+"rsx202021111239\stm32f1xx_hal_flash.o"
+"rsx202021111239\stm32f1xx_hal_flash_ex.o"
+"rsx202021111239\stm32f1xx_hal_exti.o"
+"rsx202021111239\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "RSX202021111239\RSX202021111239.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RSX202021111239.map" -o RSX202021111239\RSX202021111239.axf
